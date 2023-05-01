@@ -1,0 +1,21 @@
+@mixin title-font($font-size, $line-height: 130%) {
+    font-size: $font-size;
+    line-height: $line-height;
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+
+
+@mixin text-font($font-size: 22px) {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $font-size;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
